@@ -2,7 +2,7 @@
 
 payu_money_plugin is a Flutter library for paying money using Payumoney.
 
-[payu_money_plugin](http://www.github.com/abhidiwakar/pictures_path_provider) is a flutter plugin that can provide you the path of android's Pictures directory.
+[payu_money_plugin](http://www.github.com/abhidiwakar/pictures_path_provider) is a flutter plugin that you can paying money using Payumoney.
 
 ```diff
 - Note: This plugin can work only in Android as of now!
