@@ -26,17 +26,17 @@ class _MyAppState extends State<MyApp> {
   String productName = "My Product Name";
   String firstName = "Maulik";
   String txnID = "223428947";
-  String amount = "1.0";
+  String amount = "10.0";
 
   @override
   void initState() {
     super.initState();
     // Setting up the payment details
-    setupPayment();
+    setupPaymentMethod();
   }
 
   // Function for setting up the payment details
-  setupPayment() async {
+  setupPaymentMethod() async {
     bool response = await payuMoneyFlutter.setupPaymentKeys(
         merchantKey: "5fxRmkpa",
         merchantID: "6854818",

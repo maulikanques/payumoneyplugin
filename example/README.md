@@ -1,16 +1,30 @@
-# payu_money_plugin_example
+# PayuMoney Plugin
 
-Demonstrates how to use the payu_money_plugin plugin.
+payu_money_plugin is a Flutter library for paying money using Payumoney.
 
-## Getting Started
+[payu_money_plugin](http://www.github.com/abhidiwakar/pictures_path_provider) is a flutter plugin that can provide you the path of android's Pictures directory.
 
-This project is a starting point for a Flutter application.
+```diff
+- Note: This plugin can work only in Android as of now!
+```
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Usage
+- Add [payu_money_plugin](https://github.com/maulikanques/payumoneyplugin.git#-installing-tab-) as a dependency in your pubspec.yaml file.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+```dart
+import 'package:payu_money_plugin/payu_money_plugin.dart';
+```
+
+## Available Methods
+- setupPaymentKeys()
+- startPayment()
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update the tests as appropriate.
+
+## License
+[MIT](https://github.com/maulikanques/payumoneyplugin/blob/master/LICENSE)
